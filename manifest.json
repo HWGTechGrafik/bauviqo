@@ -3,9 +3,9 @@
     "short_name": "Bauviqo",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "Offline-Stundenerfassung fuer Einzelnutzer.",
+    "background_color": "#051936",
+    "theme_color": "#051936",
+    "description": "Bauviqo - Zeiterfassung fuer Baufirmen: der Polier verwaltet seine Partie.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
