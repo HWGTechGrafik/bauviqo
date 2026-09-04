@@ -82286,7 +82286,7 @@ q=s.length>1?B.h.bm(B.h.ig(s,1)," "):o
 return new A.jB(m,r,q,A.ue(B.oq,A.K(n.gXJ(),o,o,o,o,o,o,o),new A.bpy(n,a),o),!1,o)}p=n.gaUH()
 m=A.b([],t.n)
 r=n.a
-if(r.ay.length>6)m.push(new A.aE(B.nU,new A.JS(n.d,new A.bpz(n),r.w+" durchsuchen \u2026",o),o))
+if(r.ay.length>2)m.push(new A.aE(B.nU,new A.JS(n.d,new A.bpz(n),r.w+" durchsuchen \u2026",o),o))
 m.push(A.bq(p.length===0?new A.jB(B.ais,"Nichts gefunden","Keine "+n.a.w+" mit diesen Buchstaben.",A.eo(B.bAA,o,o,new A.bpA(n),o,o),!1,o):n.aNF(a,p),1))
 return A.aT(m,B.S,B.B,B.J,0,B.P)},
 $S:25}
@@ -82490,8 +82490,9 @@ r=A.K(h.a.c,g,g,g,g,g,g,g)
 n=t.n
 m=A.b([],n)
 l=h.a
-if(l.d.length>6){l=l.f
-m.push(new A.aE(B.ac9,A.jn(g,B.c2,!0,g,!0,B.ak,g,A.jQ(),h.d,g,g,g,g,g,2,A.By(g,g,g,g,g,g,g,g,!0,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,l,g,g,g,g,g,!0,g,g,g,!0,!0,!1,g,B.DX,g,g,g,g,g,g,h.e.length===0?g:A.jd(g,g,g,B.DV,g,g,new A.bpT(h),g,g,g,"Suche leeren"),g,g,g,g,g),B.aX,!0,g,!0,g,!1,g,B.cb,g,g,g,g,g,g,g,g,1,g,g,!1,"\u2022",g,new A.bpU(h),g,g,g,!1,g,g,!1,g,!0,g,B.cw,g,g,g,g,g,g,g,g,g,g,g,g,!0,B.b4,g,B.d_,g,B.zg,g,g),g))}if(o){l=h.a.r
+k=l.d.length
+if(k>2){l=l.f
+m.push(new A.aE(B.ac9,A.jn(g,B.c2,k>6,g,!0,B.ak,g,A.jQ(),h.d,g,g,g,g,g,2,A.By(g,g,g,g,g,g,g,g,!0,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,l,g,g,g,g,g,!0,g,g,g,!0,!0,!1,g,B.DX,g,g,g,g,g,g,h.e.length===0?g:A.jd(g,g,g,B.DV,g,g,new A.bpT(h),g,g,g,"Suche leeren"),g,g,g,g,g),B.aX,!0,g,!0,g,!1,g,B.cb,g,g,g,g,g,g,g,g,1,g,g,!1,"\u2022",g,new A.bpU(h),g,g,g,!1,g,g,!1,g,!0,g,B.cw,g,g,g,g,g,g,g,g,g,g,g,g,!0,B.b4,g,B.d_,g,B.zg,g,g),g))}if(o){l=h.a.r
 k=f.ok.z
 if(k==null)k=g
 else{j=f.ax
@@ -82634,7 +82635,7 @@ J(a){var s,r,q,p,o,n,m=this,l=null,k=A.E(a),j=A.b([],t.Vi)
 for(s=J.a2(m.a.c);s.n();){r=s.gA(s)
 if(m.a.d.p(0,r.a)||A.bzS(r.b,m.e))j.push(r)}s=t.n
 r=A.b([],s)
-if(J.bd(m.a.c)>6)r.push(new A.aE(B.cF,new A.JS(m.d,new A.bj2(m),"T\xe4tigkeit suchen \u2026",l),l))
+if(J.bd(m.a.c)>2)r.push(new A.aE(B.cF,new A.JS(m.d,new A.bj2(m),"T\xe4tigkeit suchen \u2026",l),l))
 s=A.b([],s)
 for(q=j.length,p=0;p<j.length;j.length===q||(0,A.v)(j),++p){o=j[p]
 s.push(A.a91(A.K(o.b,l,l,l,l,l,l,l),new A.bj3(m,o),m.a.d.p(0,o.a)))}q=m.a
@@ -84652,13 +84653,13 @@ if(m==null)m=o
 else{s=A.E(a).ax
 r=s.rx
 m=m.aR(r==null?s.k3:r)}m=A.K("Offline-Stundenerfassung f\xfcr Baufirmen",o,o,o,m,B.cP,o,o)
-s=A.K("Version 1.1.2",o,o,o,A.E(a).ok.Q,o,o,o)
+s=A.K("Version 1.1.3",o,o,o,A.E(a).ok.Q,o,o,o)
 r=A.E(a).ok.Q
 if(r==null)r=o
 else{q=A.E(a).ax
 p=q.rx
 r=r.aR(p==null?q.k3:p)}q=t.n
-r=A.aT(A.b([B.AF,B.ch,n,B.dU,m,B.ch,s,A.K("Stand 2026-09-04-0525",o,o,o,r,o,o,o),B.b_,B.bHI,B.b_,B.bHQ],q),B.S,B.B,B.aJ,0,B.P)
+r=A.aT(A.b([B.AF,B.ch,n,B.dU,m,B.ch,s,A.K("Stand 2026-09-04-0543",o,o,o,r,o,o,o),B.b_,B.bHI,B.b_,B.bHQ],q),B.S,B.B,B.aJ,0,B.P)
 return A.ig(A.b([A.eo(B.a0X,o,o,new A.bBe(a),o,o)],q),r,o,o,o)},
 $S:31}
 A.bBe.prototype={
@@ -85709,7 +85710,7 @@ o=A.b([A.K(k.a.c,j,j,j,s.x,j,j,j),B.dU],r)
 n=k.a
 if(n.e.length===0)o.push(new A.aE(B.cF,A.K(n.y,j,j,j,s.Q,j,j,j),j))
 n=k.a
-if(n.e.length>6)o.push(new A.aE(B.cF,new A.JS(k.d,new A.bj_(k),n.d,j),j))
+if(n.e.length>2)o.push(new A.aE(B.cF,new A.JS(k.d,new A.bj_(k),n.d,j),j))
 r=A.b([],r)
 for(n=h.length,q=0;q<h.length;h.length===n||(0,A.v)(h),++q){p=h[q]
 m=A.K(p.b,j,j,j,j,j,j,j)
